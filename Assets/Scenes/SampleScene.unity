@@ -425,7 +425,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38a5e0aadcae9fe4cb195da61c6d89e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 50
+  speedGradients:
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  currentSpeedIndex: 0
   terrain: {fileID: 246600793}
 --- !u!114 &551750237
 MonoBehaviour:
