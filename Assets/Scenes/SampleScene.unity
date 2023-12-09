@@ -433,6 +433,9 @@ MonoBehaviour:
   - 50
   currentSpeedIndex: 0
   terrain: {fileID: 246600793}
+  explosionThreshold: 15
+  escalateMultiplier: 0.5
+  reductionMultiplier: 1
 --- !u!114 &551750237
 MonoBehaviour:
   m_ObjectHideFlags: 0
